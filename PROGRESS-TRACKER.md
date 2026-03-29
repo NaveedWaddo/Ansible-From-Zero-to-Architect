@@ -37,20 +37,20 @@ After generating, update my tracker so I can paste it again next time.
 
 ### 🟢 Phase 1 — Fundamentals
 
-| #   | Topic                | File                           | Subtopics                                                            | Status         |
-| --- | -------------------- | ------------------------------ | -------------------------------------------------------------------- | -------------- |
-| 1   | What is Ansible?     | `01-what-is-ansible.md`        | Agentless model, Control/managed nodes, Idempotency                  | ✅ Done        |
-| 2   | Installation & Setup | `02-installation-and-setup.md` | pip/OS install, ansible.cfg, ping test                               | ✅ Done        |
-| 3   | Inventory            | `03-inventory.md`              | INI/YAML formats, Groups, host_vars/group_vars, Dynamic inventory    | ✅ Done        |
-| 4   | Ad-Hoc Commands      | `04-ad-hoc-commands.md`        | Module syntax, Common modules, Ad-hoc vs playbooks                   | ⬜ Not Started |
-| 5   | Playbook Basics      | `05-playbook-basics.md`        | YAML syntax, Plays/tasks/modules, Running playbooks, Execution order | ⬜ Not Started |
+| #   | Topic                | File                           | Subtopics                                                            | Status  |
+| --- | -------------------- | ------------------------------ | -------------------------------------------------------------------- | ------- |
+| 1   | What is Ansible?     | `01-what-is-ansible.md`        | Agentless model, Control/managed nodes, Idempotency                  | ✅ Done |
+| 2   | Installation & Setup | `02-installation-and-setup.md` | pip/OS install, ansible.cfg, ping test                               | ✅ Done |
+| 3   | Inventory            | `03-inventory.md`              | INI/YAML formats, Groups, host_vars/group_vars, Dynamic inventory    | ✅ Done |
+| 4   | Ad-Hoc Commands      | `04-ad-hoc-commands.md`        | Module syntax, Common modules, Ad-hoc vs playbooks                   | ✅ Done |
+| 5   | Playbook Basics      | `05-playbook-basics.md`        | YAML syntax, Plays/tasks/modules, Running playbooks, Execution order | ✅ Done |
 
 ### 🔵 Phase 2 — Intermediate
 
 | #   | Topic                   | File                              | Subtopics                                                            | Status         |
 | --- | ----------------------- | --------------------------------- | -------------------------------------------------------------------- | -------------- |
-| 6   | Variables               | `06-variables.md`                 | Variable types, 22-level precedence, Special vars                    | ⬜ Not Started |
-| 7   | Facts & Magic Variables | `07-facts-and-magic-variables.md` | setup module, Custom facts, Disabling facts                          | ⬜ Not Started |
+| 6   | Variables               | `06-variables.md`                 | Variable types, 22-level precedence, Special vars                    | ✅ Done        |
+| 7   | Facts & Magic Variables | `07-facts-and-magic-variables.md` | setup module, Custom facts, Disabling facts                          | ✅ Done        |
 | 8   | Conditionals & Loops    | `08-conditionals-and-loops.md`    | when clause, loop/with_items, loop_control                           | ⬜ Not Started |
 | 9   | Handlers                | `09-handlers.md`                  | Defining handlers, Execution order, flush_handlers                   | ⬜ Not Started |
 | 10  | Templates & Jinja2      | `10-templates-jinja2.md`          | Filters/tests/lookups, template vs copy, Complex configs             | ⬜ Not Started |
